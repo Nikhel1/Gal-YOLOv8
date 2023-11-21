@@ -4,7 +4,7 @@ import json
 
 # path to annotations file and result file
 data_keyword = "test"
-ann_file = "/home/gup039/EMU/EMUclassifier/GalDINO/RadioGalaxyNET_V4/annotations/instances_{}2017.json".format(data_keyword)
+ann_file = "/home/gup039/EMU/EMUclassifier/GalDINO/RadioGalaxyNET_V4/annotations/instances_{}.json".format(data_keyword)
 
 # load annotations and create COCO object
 coco_gt = COCO(str(ann_file))

@@ -2,7 +2,6 @@
 YOLOv8 implementation for galaxy detection
 
 ## Installation
-## Installation
 Create a Python 3.10.9 environement with CUDA 11.6.2.
 Then, install PyTorch 1.5.1+ and torchvision 0.6.1+:
 ```
@@ -33,13 +32,18 @@ We expect the directory structure to be the following:
 
 ### Use JSON2YOLO to change the annotations format to YOLO format and save it in 
 YOLO_RadioGalaxyNET/datasets/labels/train
+
 YOLO_RadioGalaxyNET/datasets/labels/val
+
 YOLO_RadioGalaxyNET/datasets/labels/test
 
 ### Copy images from RadioGalaxyNET to 
 YOLO_RadioGalaxyNET/datasets/images/train
+
 YOLO_RadioGalaxyNET/datasets/images/val
+
 YOLO_RadioGalaxyNET/datasets/images/test
+
 
 ## Training
 

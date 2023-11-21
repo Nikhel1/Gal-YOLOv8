@@ -436,11 +436,11 @@ if __name__ == '__main__':
     source = 'COCO'
 
     if source == 'COCO':
-        convert_coco_json('../../GalDINO/RadioGalaxyNET_V4/annotations',  # directory w/ *.json
+        convert_coco_json('../../GalDINO/RadioGalaxyNET/annotations',  # directory w/ *.json
                           use_segments=False,
                           use_keypoints=False,
                           cls91to80=False,
-                          savedir_path='../yolo/YOLO_RadioGalaxyNET_V4')
+                          savedir_path='../yolo/YOLO_RadioGalaxyNET')
 
     elif source == 'infolks':  # Infolks https://infolks.info/
         convert_infolks_json(name='out',
